@@ -11,7 +11,7 @@ library(party)
 
 set.seed(2345)
 
-#Read in the data set
+#Read in the data set with fread
 jumpies <- fread("C:/Users/OneCalledSyn/Desktop/jumpscare.csv")
 
 #Examine the data
